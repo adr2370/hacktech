@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4561FDF31894AEA500C503E9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4561FDF21894AEA500C503E9 /* main.cpp */; };
+		4561FDF51894AEA500C503E9 /* Tesseract.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4561FDF41894AEA500C503E9 /* Tesseract.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4561FDED1894AEA500C503E9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4561FDF51894AEA500C503E9 /* Tesseract.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4561FDEF1894AEA500C503E9 /* Tesseract */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tesseract; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561FDF21894AEA500C503E9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4561FDF41894AEA500C503E9 /* Tesseract.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Tesseract.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4561FDEC1894AEA500C503E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4561FDE61894AEA500C503E9 = {
+			isa = PBXGroup;
+			children = (
+				4561FDF11894AEA500C503E9 /* Tesseract */,
+				4561FDF01894AEA500C503E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4561FDF01894AEA500C503E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4561FDEF1894AEA500C503E9 /* Tesseract */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4561FDF11894AEA500C503E9 /* Tesseract */ = {
+			isa = PBXGroup;
+			children = (
+				4561FDF21894AEA500C503E9 /* main.cpp */,
+				4561FDF41894AEA500C503E9 /* Tesseract.1 */,
+			);
+			path = Tesseract;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4561FDEE1894AEA500C503E9 /* Tesseract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561FDF81894AEA500C503E9 /* Build configuration list for PBXNativeTarget "Tesseract" */;
+			buildPhases = (
+				4561FDEB1894AEA500C503E9 /* Sources */,
+				4561FDEC1894AEA500C503E9 /* Frameworks */,
+				4561FDED1894AEA500C503E9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tesseract;
+			productName = Tesseract;
+			productReference = 4561FDEF1894AEA500C503E9 /* Tesseract */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4561FDE71894AEA500C503E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alexander Ramirez";
+			};
+			buildConfigurationList = 4561FDEA1894AEA500C503E9 /* Build configuration list for PBXProject "Tesseract" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4561FDE61894AEA500C503E9;
+			productRefGroup = 4561FDF01894AEA500C503E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4561FDEE1894AEA500C503E9 /* Tesseract */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4561FDEB1894AEA500C503E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561FDF31894AEA500C503E9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4561FDF61894AEA500C503E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4561FDF71894AEA500C503E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4561FDF91894AEA500C503E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4561FDFA1894AEA500C503E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4561FDEA1894AEA500C503E9 /* Build configuration list for PBXProject "Tesseract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561FDF61894AEA500C503E9 /* Debug */,
+				4561FDF71894AEA500C503E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4561FDF81894AEA500C503E9 /* Build configuration list for PBXNativeTarget "Tesseract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561FDF91894AEA500C503E9 /* Debug */,
+				4561FDFA1894AEA500C503E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4561FDE71894AEA500C503E9 /* Project object */;
+}

@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( TessOp )
+find_package( OpenCV REQUIRED )
+include_directories( /usr/local/Cellar/tesseract/3.02.02 )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( TessOp TessOp.cpp )
+target_link_libraries( TessOp lept tesseract )
+target_link_libraries( TessOp ${OpenCV_LIBS} )
