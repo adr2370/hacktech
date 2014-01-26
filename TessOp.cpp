@@ -71,7 +71,7 @@ int main(int argc, char** argv)
             }
         }
         rotNum++;
-    } while (rotNum < 4 && words * 2 > wordLengths);
+    } while (rotNum < 4 && words * 3 > wordLengths);
     std::cout << out << std::endl;
 
     //cv::namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
